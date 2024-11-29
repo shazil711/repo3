@@ -8,7 +8,7 @@ steps:
   - --region=us-central1
   - --source=.
   - --trigger-http
-  - --runtime=python37 
+  - --runtime=python312
   - --allow-unauthenticated
 
 serviceAccount: "cicd-sa@storied-core-424404-t8.iam.gserviceaccount.com"
